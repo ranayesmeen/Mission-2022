@@ -22,14 +22,14 @@ section{
 }
 .flexible{
     display:flex;
-    margin-bottom:120px;
+    margin-bottom:100px;
 }
 
 .half-width{
     width:50%;
 }
 .half-width img{
-    width:70%;
+    width:60%;
 }
 body p{
     font-family: 'Times New Roman', Times, serif;
@@ -39,9 +39,9 @@ body p{
     text-decoration: none;
     background-image: linear-gradient(#39ac73,#133926);
     color:white;
-    font-weight: 700;
     padding:10px 40px;
     border-radius: 5px;
+    font-family: 'Arbutus Slab';
 }
 .greenwords{
     color:#39ac73;
@@ -55,7 +55,7 @@ body p{
     height:auto;
 }
 .one-third img{
-    width:40%;
+    width:45%;
 }
 footer{
     margin:0%;
@@ -67,11 +67,72 @@ footer{
     padding:30px;
 }
 #pic{
+    margin-top: 30px;
     float:right;
+    width:80%;
 }
 #pic1{
     float:left;
 }
 #pic2{
     float:right;
+}
+.center-heading{
+    font-weight: 700;
+    font-family: 'Arbutus Slab';
+    font-size: 50px;
+}
+.triple{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right:1.5%;
+    margin-left:1.5%;
+}
+.triple-heading{
+    font-family: 'Arbutus Slab';
+    font-size: 25px;
+
+}
+#bg-one{
+    background-color: rgb(236, 243, 243);
+    border-radius: 20px;
+}
+#bg-two{
+    background-color: rgb(212, 240, 212);
+    border-radius: 20px;
+}
+#bg-three{
+    background-color: rgb(165, 192, 181);
+    border-radius: 20px;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Arbutus Slab'; 
+}
+h5{
+    color:darkgray;
+    font-weight:lighter;
+}
+#bg1{
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left;
+}
+#bg2{
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
+}
+#portfolio{
+    width:80%;
+}
+#smallpara{
+    margin-top:50px;
+    font-size: 17px;
+}
+.one-third img{
+    margin-top:40px;
 }
